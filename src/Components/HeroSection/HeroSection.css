@@ -1,0 +1,27 @@
+.hero {
+    background: url('https://images.pexels.com/photos/757855/pexels-photo-757855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+    background-size: cover; /* Cover the entire section */
+    height: 100vh; /* Height of the hero section */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    padding: 20px; /* Padding */
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px; /* Rounded corners */
+}
+
+h1 {
+    font-size: 2.5rem; /* Font size for the heading */
+}
+
+p {
+    font-size: 1.2rem; /* Font size for the paragraph */
+    margin-top: 10px; /* Space above the paragraph */
+}

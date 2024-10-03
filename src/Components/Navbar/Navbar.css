@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around; /* Space around items */
+    align-items: center; /* Center vertically */
+    background-color: #fff; /* Navbar background color */
+    padding: 10px 20px; /* Padding */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure navbar is above other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.logo-container {
+    flex: 1; /* Space for the logo */
+}
+
+.logo {
+    height: 60px; /* Adjust logo size */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center; /* Center links */
+    flex: 2; /* Space for nav links */
+}
+
+.nav-links a {
+    position: relative; /* Position for the pseudo-element */
+    color: rgb(11, 52, 3); /* Change link color to green */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    transition: color 0.3s ease;
+    font-size: 18px;
+    font-weight: 700px; /* Transition effect for hover */
+}
+
+.nav-links a::before {
+    content: ''; /* Empty content for the pseudo-element */
+    position: absolute; /* Position it absolutely */
+    left: 50%; /* Center horizontally */
+    bottom: -5px; /* Position it below the link */
+    width: 0; /* Start with no width */
+    height: 2px; /* Height of the underline */
+    background-color: green; /* Color of the underline */
+    transition: width 0.3s ease, left 0.3s ease; /* Smooth transition */
+}
+
+.nav-links a:hover {
+    color:rgb(120, 165, 22); /* Change color on hover */
+}
+
+.nav-links a:hover::before {
+    width: 100%; /* Full width on hover */
+    left: 0; /* Align to the left */
+}
+
+.button-container {
+    flex: 1; /* Space for button */
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+}
+
+.contact-button {
+    background-color:rgb(2, 70, 2); /* Button color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color:#fff; 
+    font-size: 16px;/* Transition effects */
+}
+
+.contact-button:hover {
+    background-color: #58dd24; /* Darker blue on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+.dropdown {
+    position: relative; /* For positioning the dropdown content */
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute; /* Positioning it below the link */
+    background-color: rgb(196, 193, 193); /* Background color */
+    min-width: 160px; /* Minimum width */
+    z-index: 1; /* Ensures dropdown is on top */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show on hover */
+}
+
+.dropdown-content a {
+    color: black; /* Link color */
+    padding: 12px 16px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Links as block elements */
+}
+
+.dropdown-content a:hover {
+    background-color: #e6e3e3; /* Background color on hover */
+}

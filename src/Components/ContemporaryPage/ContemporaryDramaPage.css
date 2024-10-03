@@ -1,0 +1,148 @@
+/* Background Video */
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Overlay Content */
+  .overlay-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background: rgba(40, 39, 39, 0.7); /* Slight overlay to enhance readability */
+    color: white;
+    max-width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-bottom: -65px;
+  }
+  
+  /* Header */
+  .contemporary-drama-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contemporary-drama-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff6f61;
+  }
+  
+  .contemporary-drama-header p {
+    font-size: 1.25rem;
+  }
+  
+  /* Drama Books Section */
+  .contemporary-drama-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .book {
+    background: rgba(55, 54, 54, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height:300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .book:hover {
+    transform: scale(1.05);
+  }
+  
+  .book h2 {
+    color: #ff6f61;
+    font-size: 1.5rem;
+  }
+  
+  .book p {
+    margin: 10px 0;
+  }
+  
+  /* Modal Styling */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 50, 50, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* FAQ Section */
+  .faq-section {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgba(85, 83, 83, 0.8);
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff6f61;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ff6f61;
+    padding: 15px 0;
+    cursor: pointer;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #ddd;
+  }
+  
+  .faq-item span {
+    font-size: 24px;
+  }
+  
+  .faq-item.open span {
+    transform: rotate(45deg);
+  }
+  

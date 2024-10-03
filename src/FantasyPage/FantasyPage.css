@@ -1,0 +1,78 @@
+.fantasy-page {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .fantasy-page .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.6; /* Adjust opacity for better visibility of text */
+  }
+  
+  .page-title, .intro-text, .fantasy-awards, .fantasy-paragraphs {
+    position: relative;
+    z-index: 2; /* To ensure content appears above the video */
+  }
+  
+  .fantasy-header {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .page-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text {
+    font-size: 1.3em;
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .fantasy-awards {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .award-novels-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    
+  }
+  
+  .fantasy-page .novel-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width:400px;
+    height:500px;
+    margin-left:37px;
+  }
+  
+  .novel-cover {
+    width: 85%;
+    height:300px;
+    border-radius: 5px;
+  }
+  
+  .fantasy-paragraphs {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .fantasy-paragraphs p {
+    margin: 20px auto;
+    width: 70%;
+    line-height: 1.8;
+  }
+  

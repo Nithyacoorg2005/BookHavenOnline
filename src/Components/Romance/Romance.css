@@ -1,0 +1,130 @@
+/* Romance container */
+.romance-container {
+    position: relative;
+    min-height: 100vh; /* Ensure the page is long enough for scrolling */
+    color: #fff;
+    font-family: 'Georgia', serif;
+    overflow-x: hidden;
+    padding-bottom: -180px;
+  }
+  
+  /* Background video */
+  .video-background video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    
+  }
+  
+  /* Romance content */
+  .romance-content {
+    position: relative;
+    z-index: 1;
+    padding-top:100px;
+    padding-left:50px;
+    padding-right:50px;
+   
+
+  }
+  
+  /* Romance header */
+  .romance-header h1 {
+    font-size: 48px;
+    color: #ff6f61;
+  }
+  
+  .romance-header p {
+    font-size: 20px;
+    color:rgb(9, 9, 224);
+  }
+  
+  /* Book Section */
+  .romance-books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+ .romance-books .book {
+    background-color: #e2dbdb;
+    border: 1px solid #ff6f61;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .book:hover {
+    transform: scale(1.05);
+  }
+  
+  .book h2 {
+    font-size: 22px;
+    color: #ff6f61;
+  }
+  
+  .romance-books .book p {
+    font-size: 16px;
+    color:rgb(50, 9, 231);
+  }
+  
+  /* Recommended Authors Section */
+  .recommended-authors {
+    margin-top: 50px;
+  }
+  
+  .recommended-authors h2 {
+    font-size: 36px;
+    color: #ff6f61;
+    text-align: center;
+  }
+  
+  .recommended-authors ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .recommended-authors li {
+    margin-bottom: 15px;
+    background-color:transparent;
+    border: 1px solid #ff6f61;
+    color:rgb(15, 15, 229);
+  }
+  
+  /* Romantic Tropes Section */
+  .romantic-tropes {
+    margin-top: 50px;
+  }
+  
+  .romantic-tropes h2 {
+    font-size: 36px;
+    color: #ff6f61;
+    text-align: center;
+  }
+  
+  .romantic-tropes ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+   
+  }
+  
+  .romantic-tropes li {
+    margin:20px;
+    margin-bottom: 15px;
+    background-color:transparent;
+    border: 1px solid #ff6f61;
+    color:rgb(15, 15, 229);
+    
+  }
+  

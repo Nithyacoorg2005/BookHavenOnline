@@ -1,0 +1,128 @@
+/* Container styling */
+.contact-us-container {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  /* Header styling */
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-header h1 {
+    font-size: 36px;
+    color: #ff6f61;
+  }
+  
+  .contact-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Map Section */
+  .map-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Contact Form Section */
+  .contact-form-section {
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contact-form button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ff4430;
+  }
+  
+  /* Form confirmation */
+  .form-confirmation {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .form-confirmation h3 {
+    font-size: 20px;
+    color: green;
+  }
+  
+  /* Additional Contact Section */
+  .additional-contact-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  /* Quick Links */
+  .quick-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
+  .quick-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Section */
+  .social-media-section {
+    text-align: center;
+  }
+  
+  .social-media-icons img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .social-media-icons img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+  

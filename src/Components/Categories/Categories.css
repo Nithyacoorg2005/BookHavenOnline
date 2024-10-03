@@ -1,0 +1,50 @@
+.categories-section {
+    margin-top:80px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.categories-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.genres-grid {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.genre-card {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.genre-card-content {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.genre-card:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.genre-card h3 {
+    color: green; /* Genre title color */
+    font-weight: bold;
+}

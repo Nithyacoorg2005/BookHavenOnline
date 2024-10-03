@@ -1,0 +1,70 @@
+.drama-classics-container {
+    position: relative;
+    overflow: hidden; /* Ensure the video is contained */
+  }
+  
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.6; /* Darken the video for better text visibility */
+  }
+  
+  .drama-classics-content {
+    padding-top: 80px; /* Adjust for the fixed navbar */
+    margin: 0 auto;
+    max-width: 1200px;
+    color: #fff; /* White text for contrast */
+  }
+  
+  .drama-classics-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .drama-classics-header h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for text readability */
+  }
+  
+  .drama-classics-header p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add shadow for text readability */
+  }
+  
+  .drama-classics-books {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive card layout */
+    gap: 20px; /* Space between cards */
+    margin: 20px; /* Margin around the grid */
+  }
+  
+  .drama-classics-books .book {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background for books */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s;
+    width:300px;
+    height:300px;
+  }
+  
+  .book:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .book h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .book p {
+    font-size: 0.9rem;
+    color: #ddd; /* Lighter color for description */
+  }
+  

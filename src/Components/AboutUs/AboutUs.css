@@ -1,0 +1,106 @@
+.about-us-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .about-header h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-header p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-content h2 {
+    color: grey;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p,
+  .about-footer p {
+    font-size: 18px;
+    color: #ff6f61;
+    margin-bottom: 30px;
+  }
+  
+  .unique-features {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .unique-features li {
+    font-size:18px; 
+    color:#ff6f61;
+    margin-bottom: 10px;
+  }
+  
+  .team-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member h3 {
+    margin-top: 10px;
+    color: #ff6f61;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .mission-section h2 {
+    text-align: center;
+    color: #ff6f61;
+  }
+  
+  .mission-section p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    color: #444;
+  }
+  
+  .about-footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #444;
+  }
+  
+  .about-footer p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

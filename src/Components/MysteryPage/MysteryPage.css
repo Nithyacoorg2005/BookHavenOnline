@@ -1,0 +1,117 @@
+/* Main container for the mystery page */
+.mystery-container {
+    position: relative;
+    color: #ffffff; 
+     
+  }
+  
+  /* Background video styling */
+  .mystery-container .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* Ensures the video stays behind all content */
+
+  }
+  
+  /* Content wrapper to position it below the fixed navbar */
+  .mystery-content {
+    position: relative;
+    padding: 100px 20px 20px; /* Adjust for fixed navbar */
+    z-index: 1; /* Ensures the content is above the background video */
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  /* Header section styles */
+  .mystery-header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds mystery vibe with shadow */
+  }
+  
+  .mystery-header p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* General styling for sections (books, authors, sub-genres) */
+  .mystery-books, .mystery-authors, .mystery-subgenres {
+    margin-top: 50px;
+  }
+  
+  /* Section headings */
+  .mystery-books h2, .mystery-authors h2, .mystery-subgenres h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    color: #ffde59; /* Accent color to differentiate headings */
+  }
+  
+  /* Individual book entries styling */
+  .book {
+    margin-bottom: 20px;
+    background-color:transparent; /* Transparent background */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .book h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color:black;
+  }
+  
+  .book p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  /* List of famous authors */
+  .mystery-authors ul, .mystery-subgenres ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:rgba(8, 8, 8, 0.7);/* Semi-transparent background for list items */
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-left:100px;
+    margin-right: 100px;
+
+  }
+  
+  /* Add a custom bullet point with an emoji for mystery vibes */
+  .mystery-subgenres ul li::before {
+    margin-top:10px;
+    content: '🔎'; /* Magnifying glass icon */
+    margin-right: 10px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .mystery-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .mystery-header p {
+      font-size: 1rem;
+    }
+  
+    .book h3 {
+      font-size: 1.2rem;
+    }
+  
+    .mystery-books h2, .mystery-authors h2, .mystery-subgenres h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

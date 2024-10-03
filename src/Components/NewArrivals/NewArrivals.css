@@ -1,0 +1,53 @@
+.new-arrivals {
+    margin-top:80px;
+    padding: 50px 20px;
+    background-color: #fff5e6;
+    text-align: center;
+}
+
+.new-arrivals h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #e67e22; /* Highlight color for new arrivals */
+}
+
+.new-books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.new-book-card {
+    margin-top:70px;
+    background-color: #fff;
+    border: 2px solid #e67e22;
+    border-radius: 15px;
+    padding: 20px;
+    width: 270px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.new-book-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.new-book-cover {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.new-book-card h3 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.new-book-card p {
+    color: #888;
+}

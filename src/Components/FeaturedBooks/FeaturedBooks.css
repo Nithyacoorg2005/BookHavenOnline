@@ -1,0 +1,52 @@
+.featured-books {
+    margin-top:80px;
+    padding: 40px 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.featured-books h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.book-card {
+    margin-top:50px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.book-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.book-card p {
+    color: #777;
+}

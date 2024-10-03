@@ -1,0 +1,87 @@
+.cta-section {
+    margin-top:80px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.cta-section .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(60%); /* Adjust brightness for text visibility */
+}
+
+.cta-content {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.cta-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.cta-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+    background-color: #1e8449;
+    transform: translateY(-3px);
+}
+
+.cta-btn.browse-now {
+    background-color: #2980b9;
+}
+
+.cta-btn.browse-now:hover {
+    background-color: #2471a3;
+}
+
+.cta-btn.join-us {
+    background-color: #c0392b;
+}
+
+.cta-btn.join-us:hover {
+    background-color: #a93226;
+}
+
+.cta-btn.explore-categories {
+    background-color: #8e44ad;
+}
+
+.cta-btn.explore-categories:hover {
+    background-color: #7d3c98;
+}
