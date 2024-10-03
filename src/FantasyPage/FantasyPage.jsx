@@ -14,7 +14,7 @@ const FantasyPage = () => {
     <div className="fantasy-page">
       {/* Background video */}
       <video autoPlay muted loop className="background-video">
-        <source src="https://videos.pexels.com/video-files/17564179/17564179-uhd_2560_1440_30fps.mp4" type="video/mp4" />
+        <source src="https://videos.pexels.com/video-files/2421545/2421545-uhd_2560_1440_30fps.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -46,7 +46,7 @@ const FantasyPage = () => {
       <section className="fantasy-paragraphs">
         <h2>Why We Love Fantasy</h2>
         <p>
-          The fantasy genre allows us to escape into worlds where anything is possible. From epic quests to ancient prophecies, the genre has a way of reigniting our imagination.
+        The fantasy genre invites us to escape into realms where anything is possible. It captivates us with epic quests and ancient prophecies. Each story is a doorway to boundless imagination and adventure. Characters embark on heroic journeys, facing mythical creatures and powerful forces. In these enchanting worlds, we discover the magic of possibility.
         </p>
         <p>
           Whether you are new to fantasy or a long-time fan, the genre continues to evolve, offering fresh perspectives and groundbreaking stories.

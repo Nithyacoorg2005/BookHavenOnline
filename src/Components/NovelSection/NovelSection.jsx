@@ -5,7 +5,7 @@ import './NovelsSection.css';
 const novelsByLanguage = {
   English: [
     { title: 'The Great Gatsby', pdf: '/the-great-gatsby.pdf', img: 'https://th.bing.com/th/id/OIP.jdUu47Ll9uvA5JiCwGjbHgHaLe?w=484&h=750&rs=1&pid=ImgDetMain' },
-    { title: '1984', pdf: '/1984.pdf', img: 'https://th.bing.com/th/id/R.3ffafed02590ab68cfbea0e20ef4de54?rik=ojDheIm0VNobyw&riu=http%3a%2f%2fwww.vortexcultural.com.br%2fimages%2f2012%2f07%2f1984.jpg&ehk=V1eOL4eYWhVF9ffhc2juoP6yhKCzH1zxmS5hhtev050%3d&risl=&pid=ImgRaw&r=0' },
+    { title: '1984', pdf: 'https://ia801207.us.archive.org/BookReader/BookReaderImages.php?zip=/21/items/GeorgeOrwells1984/1984_jp2.zip&file=1984_jp2/1984_0086.jp2&id=GeorgeOrwells1984&scale=4&rotate=0', img: 'https://th.bing.com/th/id/R.3ffafed02590ab68cfbea0e20ef4de54?rik=ojDheIm0VNobyw&riu=http%3a%2f%2fwww.vortexcultural.com.br%2fimages%2f2012%2f07%2f1984.jpg&ehk=V1eOL4eYWhVF9ffhc2juoP6yhKCzH1zxmS5hhtev050%3d&risl=&pid=ImgRaw&r=0' },
     { title: 'Pride and Prejudice', pdf: '/pride-prejudice.pdf', img: 'https://m.media-amazon.com/images/I/51DPoWNY28L.jpg' },
     { title: 'To Kill a Mockingbird', pdf: '/to-kill-a-mockingbird.pdf', img: 'https://blogger.googleusercontent.com/img/a/AVvXsEhS_bNwaldGVDCgoSKmV7ExtEMnCCA2--_ZncMtidcStQMX-gxhja-Qd4qlF-TeMq2YNqzHGjLuDj0wcxh_hSWQT1jH26OXsMIj6pYLPLYewghg4dpZMhf-ev40V7h2ps9VPDKnD-L3LftV3wDUCUBCx_3mkqms1iW65-DkVMYoLt78_K2ovMowJCjo=w262-h400' },
     { title: 'The Catcher in the Rye', pdf: '/catcher-in-the-rye.pdf', img: 'https://images.wtmfiles.com/Catcher-in-the-Rye-book-cover_WEB_477x746.jpg' },
@@ -31,7 +31,7 @@ const novelsByLanguage = {
 const NovelSection = () => {
   return (
     <div className="novel-section">
-      <h2 style={{fontSize:"30px",padding:"30px"}}>Novels by Language</h2>
+      <h2 style={{fontSize:"40px",padding:"30px",textAlign:"center",color:"green"}}>Novels by Language</h2>
 
       {Object.keys(novelsByLanguage).map((language) => (
         <div key={language} className="language-section">

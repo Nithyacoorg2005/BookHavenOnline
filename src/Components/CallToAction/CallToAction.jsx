@@ -6,6 +6,10 @@ const CallToAction = () => {
     const navigate=useNavigate();
     const handlebrowse=()=>{
         navigate('./novels');
+
+    }
+    const handlebrowse1=()=>{
+        navigate('./contact-button');
     }
     return (
         <section className="cta-section">
@@ -21,8 +25,14 @@ const CallToAction = () => {
                 <p>Discover thousands of books, dive into new genres, and explore new adventures.</p>
                 <div className="cta-buttons">
                     <button onClick={handlebrowse} className="cta-btn browse-now">Browse Now</button>
-                    <button className="cta-btn join-us">Join Us</button>
-                    <button className="cta-btn explore-categories">Explore Categories</button>
+                    <button onClick={handlebrowse1}className="cta-btn join-us">Join Us</button>
+                    <button onClick={() => {
+    document.getElementsByClassName('categories-section')[0].scrollIntoView({ behavior: 'smooth' });
+}} className="cta-btn explore-categories">
+    Explore Categories
+</button>
+
+
                 </div>
             </div>
         </section>

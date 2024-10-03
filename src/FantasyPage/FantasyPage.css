@@ -12,7 +12,7 @@
     min-height: 100%;
     z-index: -1;
     object-fit: cover;
-    opacity: 0.6; /* Adjust opacity for better visibility of text */
+    opacity: 0.65; /* Adjust opacity for better visibility of text */
   }
   
   .page-title, .intro-text, .fantasy-awards, .fantasy-paragraphs {
