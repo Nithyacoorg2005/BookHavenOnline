@@ -47,36 +47,21 @@ const books = [
 const movies = [
   {
     title: 'Mad Max: Fury Road',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi3047862297/1401497881123-xszl4z-1430608297815.mp4?Expires=1727938601&Signature=M2rD2LqxIJpItUeCPfMg5xVRm9oFGGGS-i7Ia4hDFDqkhASMVXdxi2UF~D31roJY8FcBH4aZvU3P--~9l5NX6fFa1wBeDNmv~vi6DIvU3p3h~p9cDHvkaX1Ri5~f3W-wGC~8~X8nIXo7NB79xBqcoSrzraJGzCDl8~h9WtExzasRyDEJX9HOOL4JcfLYhfhTxQVgRUuEXAwTfUSq2w4StM2pJOWHjYFMR4Eqlm76cP2n7xEEmEg-TY6WsJM5AfnPgpo8K0QkY5jOGepQaaNx6RIQI64dgLBBjokzTs2gPEeDP8~RVlLZewioNOtc9CUOT9vaKKiOajmYwuSOEGNvpw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+    videoUrl: 'https://cdn.jwplayer.com/previews/dAXmJozy',
   },
   {
     title: 'The Dark Knight',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi324468761/1434659607842-pgv4ql-1563712918369.mp4?Expires=1727938985&Signature=DQPb9SHfLBXP9bj6fbvCwquoWVZB93tuWltGOeP2-Mvw0zsMmJQ9fi502SAngFd0sXS15f9ztupDOe6o6As4dAFJ-PhZISf7-e~m3U6o02l6c9dphBiP7bC3SaE6nOhrUsGDzxi2sNdTnf3F-B9rh~4hawEPpSdNHndb0JAC5cLxy9EPhxvCmx~YF~k69qE7E-6GY1KFaOWjRDh~goihCIzTMJjjPu35p533DAOcG-YzWV2iYs2iFG5AGRXRkHU90sxYBtkB5TTqK9kQOHjE9VBy8Wbd6ooZ5KbJKvWZCiJsxXt-0E-5rXgj2O1mz7IACPEsmA1Gx7BbvzvguL6z5Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+    videoUrl: 'https://cdn.jwplayer.com/previews/K5k79IX7',
   },
   {
     title: 'Gladiator',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi2628367897/1434659607842-pgv4ql-1473794595177.mp4?Expires=1727939229&Signature=cFMD~os4EF3IoszpsRaVqu-lrVYOJVD6KJg1RSAajnN4SZgoeHpbzzri9RESBUBMF83wxJct77BrDjeSjzXJDQC~GfKPhHelNjNbYvXM9TqGujaZ-1Yx-0tH43Uo6u8g7aJDeQ5mgklwC0m22oSKU8C7ecN9Dc4Y7bCp~nnDGkb7PdNqQ3bjCbOngP2LFgBc-x0OGRbzK34H5CYcT3CO6na6uPa3xHGYb1iZm40BQ5AYN7v3yEA-orFnlZhl7f1ZKZX~tZB~W5Oh2SOX9qxHvI1vEaB47-BEZEjM92QUBfyk1Lf8BkudKzC0-n8CwjQUSVZaLAPqXwx4kO4s1hsiwA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+    videoUrl: 'https://cdn.jwplayer.com/previews/36ga0pDX',
   },
   {
     title: 'John Wick',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi3963799065/1434659607842-pgv4ql-1727736763057.mp4?Expires=1727938465&Signature=e1Z5PJkB38AO8EqGIn7UxWnaKAJT~yh4htlWPi7rgTCepnZE9apbYLMT88WrflRSB26wl7bs0~KHcY3Luw~4V0eUamySDkexa4ckIlywZNp0800hdu48o~I7N5CYMCOvT~puFgj4waHymhtttrNCo07qV26C1A37TTkwtdJPY4cp1c2mxulMo5x1SAO-47lyXpVbJ93XqlMBEoaK3oKEuFqcQJ5XvFErByROZaLIHJHeo4Gg3pjLNAmRNl88aHXMiUhlpDHEiw9oGWfg9thHxDLSwnqrU5-0gLOFOBjdJPRy8i4F~u5Egg8YsV-znp8Mn-EyOY4suC1Yi3ZgIj9RBA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+    videoUrl: 'https://imdb-video.media-imdb.com/vi3877612057/1434659607842-pgv4ql-1616202333253.mp4?Expires=1728061659&Signature=PIYEYOASYd0tujnnrTx~VmonBYHDBffz3Cj9ZWUh1ZBcrVm~G~0JKdvJ-oD6deEVaIi8Wagd7y~hvB0WzxhicqbdU3U~oJ1-N2OGNOqL1gkuZ4tEQGsiINohgyptkNexWYcBkOYS2AS8v76F4UbYswc4~tDHXuvbrnMU8BnIkkQyuSpuWElTKMyqIWIyktXDmnHYuu9wYbAkwj-NpMa-TjBMlCzortsOWaPjY7-ESAR9lKn013x0rqiq-ADDI6JKXo8A6VA9M1pFfq0iFdj82pt2XGYeCY0T244ShsYRq99MewliKFeVRKm8q2~Z81YLH8Fp5J6zXdJJN9-xr7Ge3w__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
   },
-  {
-    title: 'The Dark Knight',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi324468761/1434659607842-pgv4ql-1563712918369.mp4?Expires=1727938985&Signature=DQPb9SHfLBXP9bj6fbvCwquoWVZB93tuWltGOeP2-Mvw0zsMmJQ9fi502SAngFd0sXS15f9ztupDOe6o6As4dAFJ-PhZISf7-e~m3U6o02l6c9dphBiP7bC3SaE6nOhrUsGDzxi2sNdTnf3F-B9rh~4hawEPpSdNHndb0JAC5cLxy9EPhxvCmx~YF~k69qE7E-6GY1KFaOWjRDh~goihCIzTMJjjPu35p533DAOcG-YzWV2iYs2iFG5AGRXRkHU90sxYBtkB5TTqK9kQOHjE9VBy8Wbd6ooZ5KbJKvWZCiJsxXt-0E-5rXgj2O1mz7IACPEsmA1Gx7BbvzvguL6z5Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
-  },
-  {
-    title: 'Gladiator',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi2628367897/1434659607842-pgv4ql-1473794595177.mp4?Expires=1727939229&Signature=cFMD~os4EF3IoszpsRaVqu-lrVYOJVD6KJg1RSAajnN4SZgoeHpbzzri9RESBUBMF83wxJct77BrDjeSjzXJDQC~GfKPhHelNjNbYvXM9TqGujaZ-1Yx-0tH43Uo6u8g7aJDeQ5mgklwC0m22oSKU8C7ecN9Dc4Y7bCp~nnDGkb7PdNqQ3bjCbOngP2LFgBc-x0OGRbzK34H5CYcT3CO6na6uPa3xHGYb1iZm40BQ5AYN7v3yEA-orFnlZhl7f1ZKZX~tZB~W5Oh2SOX9qxHvI1vEaB47-BEZEjM92QUBfyk1Lf8BkudKzC0-n8CwjQUSVZaLAPqXwx4kO4s1hsiwA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
-  },
-  {
-    title: 'John Wick',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi3963799065/1434659607842-pgv4ql-1727736763057.mp4?Expires=1727938465&Signature=e1Z5PJkB38AO8EqGIn7UxWnaKAJT~yh4htlWPi7rgTCepnZE9apbYLMT88WrflRSB26wl7bs0~KHcY3Luw~4V0eUamySDkexa4ckIlywZNp0800hdu48o~I7N5CYMCOvT~puFgj4waHymhtttrNCo07qV26C1A37TTkwtdJPY4cp1c2mxulMo5x1SAO-47lyXpVbJ93XqlMBEoaK3oKEuFqcQJ5XvFErByROZaLIHJHeo4Gg3pjLNAmRNl88aHXMiUhlpDHEiw9oGWfg9thHxDLSwnqrU5-0gLOFOBjdJPRy8i4F~u5Egg8YsV-znp8Mn-EyOY4suC1Yi3ZgIj9RBA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
-  },
-  {
-    title: 'John Wick',
-    videoUrl: 'https://imdb-video.media-imdb.com/vi3963799065/1434659607842-pgv4ql-1727736763057.mp4?Expires=1727938465&Signature=e1Z5PJkB38AO8EqGIn7UxWnaKAJT~yh4htlWPi7rgTCepnZE9apbYLMT88WrflRSB26wl7bs0~KHcY3Luw~4V0eUamySDkexa4ckIlywZNp0800hdu48o~I7N5CYMCOvT~puFgj4waHymhtttrNCo07qV26C1A37TTkwtdJPY4cp1c2mxulMo5x1SAO-47lyXpVbJ93XqlMBEoaK3oKEuFqcQJ5XvFErByROZaLIHJHeo4Gg3pjLNAmRNl88aHXMiUhlpDHEiw9oGWfg9thHxDLSwnqrU5-0gLOFOBjdJPRy8i4F~u5Egg8YsV-znp8Mn-EyOY4suC1Yi3ZgIj9RBA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
-  },
+ 
 ];
 
 const ActionPage = () => {

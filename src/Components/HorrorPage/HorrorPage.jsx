@@ -13,14 +13,11 @@ const horrorBooks = [
 ];
 
 const horrorMovies = [
-  { title: 'The Exorcist', year: 1973, videoUrl: 'https://www.youtube.com/embed/0AGT8WbVJlg' },
+  { title: 'The Exorcist', year: 1973, videoUrl: 'https://youtu.be/PIxpPMyGcpU?si=mRVjWlrfMfP0yscL' },
   { title: 'Get Out', year: 2017, videoUrl: 'https://www.youtube.com/embed/sRfnevzM9kQ' },
   { title: 'The Silence of the Lambs', year: 1991, videoUrl: 'https://www.youtube.com/embed/QU9de9FZRlA' },
   { title: 'Hereditary', year: 2018, videoUrl: 'https://www.youtube.com/embed/V6wWKNij_1M' },
-  { title: 'The Exorcist', year: 1973, videoUrl: 'https://www.youtube.com/embed/0AGT8WbVJlg' },
-  { title: 'Get Out', year: 2017, videoUrl: 'https://www.youtube.com/embed/sRfnevzM9kQ' },
-  { title: 'The Silence of the Lambs', year: 1991, videoUrl: 'https://www.youtube.com/embed/QU9de9FZRlA' },
-  { title: 'Hereditary', year: 2018, videoUrl: 'https://www.youtube.com/embed/V6wWKNij_1M' },
+  
 ];
 
 const HorrorPage = () => {
@@ -56,7 +53,7 @@ const HorrorPage = () => {
               <div className="book" key={index}>
                 <h3>{book.title}</h3>
                 <p><strong>Author:</strong> {book.author}</p>
-                <a href={book.downloadLink} download  className="download-btn">Download</a>
+                <a  href={book.downloadLink} download style={{listStyleType:"none",textDecoration:"none",marginTop:"40px"}} className="download-btn">Download</a>
               </div>
             ))}
           </div>
@@ -76,8 +73,7 @@ const HorrorPage = () => {
             ))}
           </div>
         </section>
-       <img src="https://media.tenor.com/w-sSlwnpFScAAAAi/scary-ghost.gif" alt="/"/>
-
+      
         {/* Modal for Movie Trailer */}
         {selectedMovie && (
           <div className="modal" onClick={closeModal}>
@@ -86,7 +82,7 @@ const HorrorPage = () => {
               <h2>{selectedMovie.title}</h2>
               <iframe
                 width="100%"
-                height="315"
+                height="300"
                 src={selectedMovie.videoUrl}
                 title={selectedMovie.title}
                 frameBorder="0"

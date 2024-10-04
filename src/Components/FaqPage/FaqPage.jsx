@@ -55,7 +55,7 @@ const FaqPage = () => {
       </section>
 
       <div className="video-section">
-        <h2>BookHavenOnline - Have a great fun</h2>
+        <h2>BookHavenOnline - Learning Journey never ends....</h2>
         <video autoPlay loop muted className="faq-video">
           <source src="https://videos.pexels.com/video-files/5088104/5088104-hd_1920_1080_25fps.mp4" type="video/mp4" />
           Your browser does not support the video tag.
