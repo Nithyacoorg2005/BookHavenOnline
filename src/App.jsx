@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
-import HeroSection from './Components/HeroSection/Herosection'
+import HeroSection from './Components/HeroSection/HeroSection'
 import FeaturedBooks from './Components/FeaturedBooks/FeaturedBooks'
 import Categories from './Components/Categories/Categories'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
