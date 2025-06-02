@@ -26,7 +26,7 @@ Online view:https://bookhavenonline.netlify.app/
 To run BookHavenOnline locally:
 
 bash
-git clone https://github.com/yourusername/bookhavenonline.git
+
 cd bookhavenonline
 npm install
 npm run dev
